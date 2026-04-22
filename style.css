@@ -1,0 +1,35 @@
+header h1{
+    text-align: center;
+    background-color: brown;
+}
+
+#job-section{
+    display: flex;
+}
+.job-dec{
+    width: 50;
+}
+
+.job-image{
+    width: 50%;
+}
+
+.job-image img{
+    width: 100%;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   border: 1px solid #ccc;
+   padding: 10px;
+   border-radius: 15px;
+}
+
+form label{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 10px;
+   
+   
+}

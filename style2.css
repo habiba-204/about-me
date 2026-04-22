@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+boby{
+    font-family: sans-serif;
+    color: #333;
+}
+
+#my-header{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#nav-bar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+      list-style-type: none;
+}
+
+#nav-bar ul a{
+    text-decoration: none;
+    color: #333;
+}
+
+.border-red{
+    border: 2px solid red;
+}
+
+.border-green{
+    border: 2px solid green;
+}
+
+.border-blue{
+    border: 2px solid blue;
+}
